@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.iai.glsib.devmobile1.MainActivity">
+    <item
+        android:id="@+id/action_ajouter"
+        android:orderInCategory="100"
+        android:title="Ajouter"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_supprimer"
+        android:orderInCategory="300"
+        android:title="Supprimer"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_modifier"
+        android:orderInCategory="200"
+        android:title="Modifier"
+        app:showAsAction="never" />
+</menu>
